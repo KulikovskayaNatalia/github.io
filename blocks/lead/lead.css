@@ -1,0 +1,17 @@
+.lead {
+  margin: 56px auto 0;
+  max-width: 928px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    margin: 48px auto 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead {
+    margin: 57px auto 0px;
+  }
+}
